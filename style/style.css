@@ -248,6 +248,10 @@ button {
 /* mobile phone responsive style */
 @media screen and (max-width:576px) {
 
+    body{
+        padding: 2px;
+        width: 100%;
+    }
     .nav-section {
         width: 95%;
 
@@ -329,9 +333,13 @@ button {
     }
     .run-section{
         flex-direction: column;
-        width: 100%;
+        width: 80%;
         text-align: center;
         gap: 35px;
         padding: 30px;
+        margin-left: 20px;
+    }
+    .run-img img{
+        width: 100%;
     }
 }
