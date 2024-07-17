@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fitness</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
     <header>
         <nav class="nav-section display-flex">
-            <h2>Fitness</h2>
+            <h2 id="nav-title">Fitness</h2>
             <div>
                 <ul class="nav-items display-flex">
                     <button>Home</button>
@@ -17,6 +18,7 @@
                     <li><a href="">Contact</a></li>
                     <li><a href="">About</a></li>
                 </ul>
+                <li><i class="fa-solid fa-bars"></i></li>
             </div>
         </nav>
         <div class="banner-container display-flex">
@@ -29,23 +31,25 @@
                 <p>
                     A huge selection of health and fitness content, healthy recipes <br>and transformation stories to help you get fit and stay fit!
                 </p>
-                <button>Join Club Now!</button>
-                <button>Download App</button>
+                <button class="btn">Join <span class="club">Club</span> Now!</button>
+                <button class="btn" id="btn-container">Download App</button>
             </div>
             <div class="banner-img-container">
+               <div>
                 <img src="images/Images 2.png" alt="">
+                </div>
 
                 <div class="position-1 display-flex">
                     <span class="dot"></span>
-                    <div class="position-1-content">
-                        <h4 class="position-1-title">350+</h4>
-                        <p class="p">Video tutorial</p>
+                    <div>
+                        <h4 class="position-1-title color-white">350+</h4>
+                        <p class="p-1 color-white-half">Video tutorial</p>
                     </div>
                 </div>
 
-                <div class="position-2">
-                    <h3>500+</h3>
-                    <p>Free Workout Videos</p>
+                <div class="position-2 color-white">
+                    <h3 class="position-2-title">500+</h3>
+                    <p class="p-2 color-white-half">Free Workout Videos</p>
                 </div>
             </div>
         </div>
