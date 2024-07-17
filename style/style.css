@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+@import url('https://fonts.cdnfonts.com/css/real-miami');
+
+#shape{
+    font-family: 'Real Miami', sans-serif;
+    color: white;
+    font-size: 4.8rem;
+    font-weight:400;
+}
+
 body {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -12,10 +21,11 @@ body {
 body{
     background-color: black;
     /* color: wheat; */
+    font-family: ;
 }
 header{
     margin: 0 auto;
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0.089) 100%);
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0.075) 100%);
 }
 
 /* shared style */
@@ -85,7 +95,7 @@ button {
     height: 40px;
 }
 
-header {}
+
 
 /* banner section style */
 .banner-container {
@@ -181,10 +191,17 @@ header {}
 
 /* mobile phone responsive style */
 @media screen and (max-width:576px) {
+
+    .nav-section{
+        width: 95%;
+
+    }
     .nav-items{
         display: none;
     }
     .fa-solid{
+        margin-top: 40px;
+        /* margin-right: 20px; */
         color: white;
         font-size: 1.5rem;
         display: inline-block;
@@ -201,6 +218,9 @@ header {}
     .banner-description h1{
         font-size: 2rem;
     }
+    #shape{
+        font-size: 2rem;
+    }
     header{
         width: 100%;
     }
@@ -210,8 +230,9 @@ header {}
         width: 200px;
         height: auto;
         /* border: 2px solid red; */
-        bottom: 20%;
+        bottom: 40%;
         right: 70%;
+        left: 5%;
         border-radius: 10px;
         background-color: rgba(255, 255, 255, 0.1);
         backdrop-filter: blur(20px);
@@ -222,7 +243,7 @@ header {}
         height: 110px;
         /* border: 2px solid red; */
         bottom: 60%;
-        left: 55%;
+        left: 50%;
         top: 10%;
         border-radius: 10px;
         background-color: rgba(255, 255, 255, 0.1);
@@ -234,8 +255,5 @@ header {}
     }
     .club{
         display: none;
-    }
-    .btn{
-        margin-left: 70px;
     }
 }
