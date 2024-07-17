@@ -2,11 +2,11 @@
 
 @import url('https://fonts.cdnfonts.com/css/real-miami');
 
-#shape{
+#shape {
     font-family: 'Real Miami', sans-serif;
     color: white;
     font-size: 4.8rem;
-    font-weight:400;
+    font-weight: 400;
 }
 
 body {
@@ -18,14 +18,14 @@ body {
         "slnt" 0;
 
 }
-body{
+
+body {
     background-color: black;
-    /* color: wheat; */
-    font-family: ;
 }
-header{
+
+header {
     margin: 0 auto;
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0.075) 100%);
+    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0.075) 100%);
 }
 
 /* shared style */
@@ -43,40 +43,39 @@ button {
     cursor: pointer;
 
 }
-.fa-solid{
+
+.fa-solid {
     color: white;
     font-size: 1.5rem;
     display: none;
 }
-.color-white{
+
+.color-white {
     color: white;
 }
-.color-white-half{
+
+.color-white-half {
     color: #FFFFFF80;
 }
 
 /* nav section style */
 
-#nav-title{
+#nav-title {
     font-size: 2.25rem;
     font-weight: 800;
     color: #E6533C;
 }
 
 .nav-section {
-    /* border: 2px solid red; */
     margin: 0px auto;
     width: 80%;
     justify-content: space-between;
 }
 
-/* .nav-section h2 {
-    border: 2px solid red;
-} */
+
 
 .nav-items {
     margin-top: 35px;
-    /* border: 2px solid red; */
     gap: 60px;
 }
 
@@ -98,14 +97,16 @@ button {
 
 
 /* banner section style */
+
 .banner-container {
-    /* border: 2px solid red; */
     justify-content: space-evenly;
 }
-.banner-description button{
+
+.banner-description button {
     padding: 16px 40px 16px 40px;
 }
-#btn-container{
+
+#btn-container {
     background-color: #0F0F0F;
     margin-left: 12px;
     border: 1px solid white;
@@ -125,8 +126,6 @@ button {
 
 .banner-img-container {
     position: relative;
-    border: 2px solid blue;
-
 }
 
 .position-1 {
@@ -134,15 +133,15 @@ button {
     gap: 10px;
     width: 200px;
     height: auto;
-    /* border: 2px solid red; */
     bottom: 20%;
     right: 70%;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(20px);
-    
+
 }
-.dot{
+
+.dot {
     width: 35px;
     height: 35px;
     border-radius: 50%;
@@ -151,22 +150,20 @@ button {
     margin-left: 23px;
     background-color: #E6533C;
 }
-    
-.position-1-title{
+
+.position-1-title {
     font-size: 1.5rem;
     font-weight: 900;
     margin: 15px 0 8px;
-    /* border: 2px solid red; */
-}
-.p-1{
-    margin-top: 8px;
-    /* border: 2px solid red; */
 }
 
-.position-2{
+.p-1 {
+    margin-top: 8px;
+}
+
+.position-2 {
     position: absolute;
     width: 200px;
-    /* border: 2px solid red; */
     bottom: 60%;
     left: 70%;
     border-radius: 10px;
@@ -174,86 +171,128 @@ button {
     backdrop-filter: blur(20px);
 }
 
-.position-2-title{
+.position-2-title {
     font-size: 2.5rem;
-    /* border: 2px solid red; */
     margin-top: 17px;
     margin-bottom: 5px;
     margin-left: 24px;
-    
+
 
 }
-.p-2{
+
+.p-2 {
     margin-left: 24px;
     margin-top: 5px;
-    /* border: 2px solid red; */
 }
+
+/* habits section style */
+
+.habits-section{
+    text-align: center;
+    width: 60%;
+    margin: 80px auto;
+}
+.habits-section h1{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.habit-image-container img{
+    border-radius: 50%;
+}
+.habit-image-container h5{
+    font-size: 1.12rem;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 2px;
+}
+.habit-image-container p{
+    padding: 10px;
+    margin-top: 2px;
+}
+.habit-description{
+    justify-content: space-between;
+}
+
 
 /* mobile phone responsive style */
 @media screen and (max-width:576px) {
 
-    .nav-section{
+    .nav-section {
         width: 95%;
 
     }
-    .nav-items{
+
+    .nav-items {
         display: none;
     }
-    .fa-solid{
+
+    .fa-solid {
         margin-top: 40px;
-        /* margin-right: 20px; */
         color: white;
         font-size: 1.5rem;
         display: inline-block;
-        
+
     }
-    .banner-container{
+
+    .banner-container {
         width: 100%;
         flex-direction: column;
 
     }
-    .banner-img-container img{
+
+    .banner-img-container img {
         width: 100%;
     }
-    .banner-description h1{
+
+    .banner-description h1 {
         font-size: 2rem;
     }
-    #shape{
+
+    #shape {
         font-size: 2rem;
     }
-    header{
+
+    header {
         width: 100%;
     }
+
     .position-1 {
         position: absolute;
         gap: 10px;
         width: 200px;
         height: auto;
-        /* border: 2px solid red; */
         bottom: 40%;
         right: 70%;
         left: 5%;
-        border-radius: 10px;
-        background-color: rgba(255, 255, 255, 0.1);
-        backdrop-filter: blur(20px);
+
     }
-    .position-2{
+
+    .position-2 {
         position: absolute;
         width: 190px;
         height: 110px;
-        /* border: 2px solid red; */
         bottom: 60%;
         left: 50%;
         top: 10%;
-        border-radius: 10px;
-        background-color: rgba(255, 255, 255, 0.1);
-        backdrop-filter: blur(20px);
     }
-    .position-2-title{
+
+    .position-2-title {
         font-size: 1.8rem;
-       
     }
-    .club{
+
+    .club {
         display: none;
+    }
+    header{
+        padding: 10px;
+    }
+
+    .habits-section{
+        width: 100%;
+    }
+
+    .habit-description{
+        flex-direction: column;
     }
 }
