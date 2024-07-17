@@ -187,32 +187,62 @@ button {
 
 /* habits section style */
 
-.habits-section{
+.habits-section {
     text-align: center;
     width: 60%;
     margin: 80px auto;
 }
-.habits-section h1{
+
+.habits-section h1 {
     font-size: 3rem;
     font-weight: 900;
     margin-bottom: 10px;
 }
-.habit-image-container img{
+
+.habit-image-container img {
     border-radius: 50%;
 }
-.habit-image-container h5{
+
+.habit-image-container h5 {
     font-size: 1.12rem;
     font-weight: 600;
     margin-top: 30px;
     margin-bottom: 2px;
 }
-.habit-image-container p{
+
+.habit-image-container p {
     padding: 10px;
     margin-top: 2px;
 }
-.habit-description{
+
+.habit-description {
     justify-content: space-between;
 }
+
+/* run section style */
+
+.run-section {
+    width: 60%;
+    margin: 80px auto;
+    padding: 20px 0;
+    border-radius: 20px;
+    background: rgb(34, 34, 34);
+    justify-content: space-around;
+    gap: 160px;
+
+}
+
+.run-content h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+
+.run-content button {
+    width: 220px;
+    padding: 16px 40px 16px 40px;
+}
+
 
 
 /* mobile phone responsive style */
@@ -284,15 +314,24 @@ button {
     .club {
         display: none;
     }
-    header{
+
+    header {
         padding: 10px;
     }
 
-    .habits-section{
+    .habits-section {
         width: 100%;
+        margin-left: 25px;
     }
 
-    .habit-description{
+    .habit-description {
         flex-direction: column;
+    }
+    .run-section{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        gap: 35px;
+        padding: 30px;
     }
 }
