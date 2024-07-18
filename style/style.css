@@ -57,6 +57,9 @@ button {
 .color-white-half {
     color: #FFFFFF80;
 }
+.for-mobile{
+    display: none;
+}
 
 /* nav section style */
 
@@ -249,11 +252,11 @@ button {
 @media screen and (max-width:576px) {
 
     body{
-        padding: 2px;
+        /* padding: 2px; */
         width: 100%;
     }
     .nav-section {
-        width: 95%;
+        width: 80%;
 
     }
 
@@ -282,6 +285,9 @@ button {
     .banner-description h1 {
         font-size: 2rem;
     }
+    .banner-description p{
+        font-size: .87rem;
+    }
 
     #shape {
         font-size: 2rem;
@@ -289,6 +295,12 @@ button {
 
     header {
         width: 100%;
+    }
+    .for-pc{
+        display: none;
+    }
+    .for-mobile{
+        display: inline-block;
     }
 
     .position-1 {
@@ -326,6 +338,12 @@ button {
     .habits-section {
         width: 100%;
         margin-left: 25px;
+    }
+    .habits-section h1{
+        font-size: 2rem;
+    }
+    .habits-section p{
+        font-size: .87rem;
     }
 
     .habit-description {
