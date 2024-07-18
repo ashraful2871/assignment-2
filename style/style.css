@@ -20,7 +20,7 @@ body {
 }
 
 body {
-    /* background-color: black; */
+    background-color: black;
 }
 
 header {
@@ -249,8 +249,84 @@ button {
 }
 
 /* BMi section style */
-.bmi-section{
-    border: 2px solid red;
+
+.bmi-section {
+    background: rgb(34, 34, 34);
+
+}
+
+.bmi-title {
+    text-align: center;
+}
+
+
+table,
+th {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 15px 70px 15px 15px;
+
+}
+
+.bmi-title h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.bmi-chart-calculate h3 {
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+
+input,
+select {
+    width: 283px;
+    height: 50px;
+    margin: 5px 5px;
+    border-radius: 8px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.factor {
+    width: 595px;
+    color: #FFFFFF99;
+}
+
+.gender {
+    width: 290px;
+    color: #FFFFFF99
+}
+
+
+.Calculate-title {
+    font-size: 1.75rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+
+}
+
+.input-section {
+
+    flex-direction: column;
+}
+
+.bmi-calculator-container {
+    justify-content: space-around;
+}
+
+
+.btn-calculate {
+    width: 224px;
+    height: 54px;
+    margin: 30px 0 50px;
+    padding: 16px 40px 16px 40px;
 }
 
 
@@ -289,11 +365,12 @@ button {
     .banner-description {
         width: 95%;
     }
+
     .banner-description button {
         width: 165px;
         font-size: 1rem;
     }
-   
+
     .banner-description h1 {
         font-size: 2rem;
     }
@@ -313,7 +390,7 @@ button {
     .for-mobile {
         display: inline-block;
     }
-    
+
     .position-1 {
         position: absolute;
         gap: 10px;
@@ -344,7 +421,6 @@ button {
 
     .habits-section {
         width: 80%;
-        /* margin: 0 auto; */
         margin-left: 25px;
     }
 
@@ -366,10 +442,35 @@ button {
         text-align: center;
         gap: 35px;
         padding: 30px;
-        /* margin-left: 20px; */
     }
 
     .run-img img {
         width: 100%;
     }
+
+    .bmi-calculator-container{
+        flex-direction: column;
+        width: 100%;
+    }
+    .factor {
+        width: 360px;
+        
+    }
+    .bmi-section{
+        width: 100%;
+    }
+    .bmi-section h1{
+        font-size: 2rem;
+    }
+    .bmi-section h3{
+        font-size: 1rem;
+    }
+    .input-content input{
+        width: 170.5px;
+    }
+
+    .input-content select{
+        width: 170.5px;
+    }
+  
 }
