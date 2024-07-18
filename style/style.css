@@ -451,6 +451,7 @@ select {
     .bmi-calculator-container{
         flex-direction: column;
         width: 100%;
+        margin-left: 8px;
     }
     .factor {
         width: 360px;
