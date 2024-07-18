@@ -381,6 +381,53 @@ select {
     margin-top: 3px;
 }
 
+/* footer section style */
+
+footer{
+    background-color:rgba(255, 255, 255, 0.1);
+}
+footer a{
+    text-decoration: none;
+    color: #FFFFFF80;
+    
+}
+footer li{
+    list-style: none;
+    margin-bottom: 15px;
+    
+}
+footer p{
+    font-size: .77rem;
+    color: #FFFFFF80;
+}
+footer h3{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: white;
+}
+.footer-description{
+    width: 70%;
+    margin: 70px auto;
+    justify-content: space-around;
+}
+.footer-title{
+    font-size: 4.37rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+    color: #E6533C;
+}
+hr{
+    width: 70%;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    margin: 80px auto 30px;
+}
+.all-right-reserved{
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+
 
 
 
@@ -550,11 +597,11 @@ select {
 
     .team-character{
         width: 340px;
-        border:  solid red;
     }
     .team-title h1{
         font-size: 2rem;
     }
-
-
+    .footer-description{
+        flex-direction: column;
+    }
 }
