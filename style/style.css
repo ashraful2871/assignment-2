@@ -57,7 +57,8 @@ button {
 .color-white-half {
     color: #FFFFFF80;
 }
-.for-mobile{
+
+.for-mobile {
     display: none;
 }
 
@@ -106,10 +107,11 @@ button {
 }
 
 .banner-description button {
-    padding: 16px 40px 16px 40px;
+    width: 224px;
+    height: 54px;
 }
 
-#btn-container {
+.btn-container {
     background-color: #0F0F0F;
     margin-left: 12px;
     border: 1px solid white;
@@ -251,10 +253,13 @@ button {
 /* mobile phone responsive style */
 @media screen and (max-width:576px) {
 
-    body{
+    body {
         /* padding: 2px; */
-        width: 100%;
+        border: 2px solid red;
+        /* width: 90%; */
+
     }
+
     .nav-section {
         width: 80%;
 
@@ -278,14 +283,26 @@ button {
 
     }
 
-    .banner-img-container img {
-        width: 100%;
+    .banner-img-container {
+        width: 80%;
+        border: 2px solid red;
     }
 
+    .banner-description {
+        width: 95%;
+        border: 2px solid blue;
+    }
+    .banner-description button {
+        width: 165px;
+        font-size: 1rem;
+        /* height: 26px; */
+    }
+   
     .banner-description h1 {
         font-size: 2rem;
     }
-    .banner-description p{
+
+    .banner-description p {
         font-size: .87rem;
     }
 
@@ -296,13 +313,15 @@ button {
     header {
         width: 100%;
     }
-    .for-pc{
+
+    .for-pc {
         display: none;
     }
-    .for-mobile{
+
+    .for-mobile {
         display: inline-block;
     }
-
+    
     .position-1 {
         position: absolute;
         gap: 10px;
@@ -336,28 +355,38 @@ button {
     }
 
     .habits-section {
-        width: 100%;
+        width: 80%;
+        /* margin: 0 auto; */
         margin-left: 25px;
     }
-    .habits-section h1{
+
+    .habits-section h1 {
         font-size: 2rem;
     }
-    .habits-section p{
+
+    .habits-section p {
         font-size: .87rem;
     }
 
     .habit-description {
         flex-direction: column;
     }
-    .run-section{
+
+    .run-section {
         flex-direction: column;
         width: 80%;
         text-align: center;
         gap: 35px;
         padding: 30px;
-        margin-left: 20px;
+        /* margin-left: 20px; */
     }
-    .run-img img{
+
+    .run-img img {
         width: 100%;
     }
+
+    .habits-section {
+        border: 2px solid red;
+    }
+
 }
