@@ -329,6 +329,58 @@ select {
     padding: 16px 40px 16px 40px;
 }
 
+/* team section style */
+
+.team-section {}
+
+.team-title {
+    margin-top: 90px;
+    text-align: center;
+}
+
+.team-title h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.team-character {
+    width: 55%;
+    margin: 50px auto;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.103);
+}
+
+.img-container {
+    position: relative;
+    width: 330px;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+
+}
+
+.identity {
+    margin-left: 20px;
+    position: absolute;
+    bottom: 3%;
+}
+
+.identity h3 {
+    margin-bottom: 3px;
+}
+
+.identity p {
+    margin-top: 3px;
+}
+
 
 
 
@@ -443,35 +495,66 @@ select {
         gap: 35px;
         padding: 30px;
     }
+    .run-content h1{
+        font-size: 2rem;
+    }
+    .run-content p{
+        font-size: .87rem;
+    }
 
     .run-img img {
         width: 100%;
     }
 
-    .bmi-calculator-container{
+    .bmi-calculator-container {
         flex-direction: column;
         width: 100%;
         margin-left: 8px;
     }
+
     .factor {
         width: 360px;
-        
+
     }
-    .bmi-section{
+
+    .bmi-section {
         width: 100%;
     }
-    .bmi-section h1{
+
+    .bmi-section h1 {
         font-size: 2rem;
     }
-    .bmi-section h3{
+
+    .bmi-section h3 {
         font-size: 1rem;
     }
-    .input-content input{
+
+    .input-content input {
         width: 170.5px;
     }
 
-    .input-content select{
+    .input-content select {
         width: 170.5px;
     }
-  
+
+    .team-character {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .img-container img {
+        width: 313px;
+        height: 272px;
+        margin-left: 20px;
+    }
+
+
+    .team-character{
+        width: 340px;
+        border:  solid red;
+    }
+    .team-title h1{
+        font-size: 2rem;
+    }
+
+
 }
