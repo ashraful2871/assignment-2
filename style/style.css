@@ -20,7 +20,7 @@ body {
 }
 
 body {
-    background-color: black;
+    /* background-color: black; */
 }
 
 header {
@@ -248,17 +248,16 @@ button {
     padding: 16px 40px 16px 40px;
 }
 
+/* BMi section style */
+.bmi-section{
+    border: 2px solid red;
+}
+
+
 
 
 /* mobile phone responsive style */
 @media screen and (max-width:576px) {
-
-    body {
-        /* padding: 2px; */
-        border: 2px solid red;
-        /* width: 90%; */
-
-    }
 
     .nav-section {
         width: 80%;
@@ -285,17 +284,14 @@ button {
 
     .banner-img-container {
         width: 80%;
-        border: 2px solid red;
     }
 
     .banner-description {
         width: 95%;
-        border: 2px solid blue;
     }
     .banner-description button {
         width: 165px;
         font-size: 1rem;
-        /* height: 26px; */
     }
    
     .banner-description h1 {
@@ -308,10 +304,6 @@ button {
 
     #shape {
         font-size: 2rem;
-    }
-
-    header {
-        width: 100%;
     }
 
     .for-pc {
@@ -350,10 +342,6 @@ button {
         display: none;
     }
 
-    header {
-        padding: 10px;
-    }
-
     .habits-section {
         width: 80%;
         /* margin: 0 auto; */
@@ -384,9 +372,4 @@ button {
     .run-img img {
         width: 100%;
     }
-
-    .habits-section {
-        border: 2px solid red;
-    }
-
 }
